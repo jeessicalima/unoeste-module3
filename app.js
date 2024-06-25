@@ -12,6 +12,7 @@ app.get('/', (request, response) => {
     .json({
         status: true,
         testeAtributo: false,
+        testeMerge:(1+1),
         mensagem: "OK"
     });
 });
