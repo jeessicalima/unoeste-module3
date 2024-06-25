@@ -11,6 +11,7 @@ app.get('/', (request, response) => {
     .status(200)
     .json({
         status: true,
+        testeMerge:(1+1),
         mensagem: "OK"
     });
 });
